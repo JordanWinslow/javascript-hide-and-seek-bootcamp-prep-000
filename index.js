@@ -5,7 +5,7 @@ function nestedTarget() {
   return getFirstSelector('#nested').querySelector('.target')
 }
 function deepestChild() {
-  return document.querySelector("#grand-node").lastElementChild.textContent
+  return document.querySelector("#grand-node").lastElementChild
 }
 function increaseRankBy(numberToIncreaseBy) {
   
